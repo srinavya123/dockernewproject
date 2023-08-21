@@ -42,7 +42,7 @@ pipeline {
         }
         stage('stack') {
             steps {
-                sh 'docker stack deploy -c docker-compose.yml PAYTM TECHARGE'
+                sh 'docker stack deploy -c docker-compose.yml Paytm movies'
             }
         }
     }

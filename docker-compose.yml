@@ -3,7 +3,7 @@ services:
   movies:
     image: srinavya123/lenovo:latest
     ports:
-      - "90:80"
+      - "879:80"
     deploy:
       replicas: 3
 

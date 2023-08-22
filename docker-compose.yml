@@ -10,20 +10,20 @@ services:
   train:
     image: srinavya123/hp:latest
     ports:
-      - "91:80"
+      - "880:80"
     deploy:
       replicas: 3
 
   dth:
     image: srinavya123/asus:latest
     ports:
-      - "92:80"
+      - "881:80"
     deploy:
       replicas: 3
 
   recharge:
     image: srinavya123/dell:latest
     ports:
-      - "93:80"
+      - "882:80"
     deploy:
       replicas: 3

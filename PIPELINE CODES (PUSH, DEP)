@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                git 'https://github.com/RAHAMSHAIK007/dockernewproject.git'
+                git 'https://github.com/srinavya123/dockernewproject.git'
             }
         }
         stage('build') {
@@ -37,7 +37,7 @@ pipeline {
     stages {
         stage('check') {
             steps {
-                git 'https://github.com/RAHAMSHAIK007/dockernewproject.git'
+                git 'https://github.com/srinavya123/dockernewproject.git'
             }
         }
         stage('stack') {

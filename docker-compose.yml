@@ -1,28 +1,28 @@
 version: '3'
 services:
-  gold:
-    image: srinavya123/gold:latest
+  H:
+    image: srinavya123/h:latest
     ports:
-      - "890:80"
+      - "81:80"
     deploy:
       replicas: 3
 
-  silver:
-    image: srinavya123/silver:latest
+  HE:
+    image: srinavya123/he:latest
     ports:
-      - "891:80"
+      - "82:80"
     deploy:
       replicas: 3
 
-  platinum:
-    image: srinavya123/platinum:latest
+  LI:
+    image: srinavya123/li:latest
     ports:
-      - "892:80"
+      - "83:80"
     deploy:
       replicas: 3
 
-  venedium:
-    image: srinavya123/venedium:latest
+  BE:
+    image: srinavya123/be:latest
     ports:
       - "893:80"
     deploy:

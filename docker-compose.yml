@@ -1,27 +1,27 @@
 version: '3'
 services:
-  movies:
+  gold:
     image: srinavya123/gold:latest
     ports:
       - "890:80"
     deploy:
       replicas: 3
 
-  train:
+  silver:
     image: srinavya123/silver:latest
     ports:
       - "891:80"
     deploy:
       replicas: 3
 
-  dth:
+  platinum:
     image: srinavya123/platinum:latest
     ports:
       - "892:80"
     deploy:
       replicas: 3
 
-  recharge:
+  venedium:
     image: srinavya123/venedium:latest
     ports:
       - "893:80"

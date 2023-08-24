@@ -1,28 +1,28 @@
 version: '3'
 services:
   movies:
-    image: srinavya123/lenovo:latest
+    image: srinavya123/gold:latest
     ports:
       - "81:80"
     deploy:
       replicas: 3
 
   train:
-    image: srinavya123/hp:latest
+    image: srinavya123/silver:latest
     ports:
       - "82:80"
     deploy:
       replicas: 3
 
   dth:
-    image: srinavya123/asus:latest
+    image: srinavya123/platinum:latest
     ports:
       - "83:80"
     deploy:
       replicas: 3
 
   recharge:
-    image: srinavya123/dell:latest
+    image: srinavya123/venedium:latest
     ports:
       - "88:80"
     deploy:
